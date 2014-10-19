@@ -122,13 +122,15 @@
 }
 #contact-wrapper{
 	text-align:center;
-	margin-top:6%;
+	margin-top:3%;
 	font-size:110%;
 }
-#contact-map{
-	
-}
+
 iframe{
+	width:99%;
+	margin-top:10px;
+}
+#content-map{
+	border:3px solid red;
 	width:100%;
-	margin-top:15px;
 }
