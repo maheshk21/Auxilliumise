@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-  background: #4276B6;
+  background: #40afc2	;
   width: auto;
   padding:12px;
-  border-top:3px solid rgba(13, 161, 255, 1);
+  border-top:3px solid #5bbfe8;
+
 }
 #cssmenu ul {
   list-style: none;
@@ -33,7 +34,7 @@
   text-align: center;
 }
 #cssmenu ul li a {
-  color: #fff;
+  color: #3b3c42;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -49,7 +50,7 @@
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: #eee;
+  color: grey;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -85,7 +86,7 @@
   display: none;
 }
 #cssmenu ul li.active a {
-  color: #fff;
+  color: yellow;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
@@ -107,7 +108,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
+    border-bottom: 1px solid yellow;
   }
   #cssmenu ul li.last > a,
   #cssmenu ul li:last-child > a {
@@ -135,15 +136,16 @@ iframe{
 	width:100%;
 }
 #cssmenu-wrapper{
-	background-color:#ffd700;
+	background-color:#AFE0A5;
 	height:10%;
+	width:100%;
 }
 #club-name{
 	padding-bottom:3%;
 }
 body{
 	margin:0;
-	background: yellow;
+	background:#EA4C89;
 }
 footer{
 	width: 100%;
