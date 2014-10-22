@@ -34,11 +34,11 @@
   text-align: center;
 }
 #cssmenu ul li a {
-  color: white;
+  color:#18a7ae;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -50,7 +50,7 @@
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: black;
+  color:#e40f5c;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -86,7 +86,7 @@
   display: none;
 }
 #cssmenu ul li.active a {
-  color: gray;
+  color: #18a7ae;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
@@ -129,8 +129,9 @@
 
 iframe{
 	width:100%;
-	margin-top:10px;
+	
 	border-top:4px solid black;
+	margin-bottom:10px;
 }
 #cssmenu-wrapper{
 	background-color:#ccc0c1;
@@ -138,7 +139,7 @@ iframe{
 	width:100%;
 }
 #club-name{
-	padding-bottom:3%;
+	padding-bottom:3px;
 }
 body{
 	margin:0;
@@ -147,24 +148,52 @@ body{
 
 /*Main footer*/
 #footer {
-    position: absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
-    background: #c37c82;
-    height: 24px;
+    background: #b0cfd3;
+    height: auto;
 	text-align:center;
-	padding-top:2px;
-	padding-bottom:3px;
+	padding:5px;
 }
 #footer ul {
-    width: 684px;
+    width: 750px;
     margin: 0 auto;
+    padding:5px;
 }
 #footer ul li {
     list-style-image: none;
     display: inline-block;
-    font: 20px/11px 'RobotoLight', Arial, sans-serif;
-    margin: 0 23px 0 0
-    
+    font: 14px/11px 'Droid Sans', sans-serif;
+    margin: 0 23px 0 0;
+}
+#designer{
+	text-decoration:none;    
+	color:black;
+}
+#footer span div a{
+	color:#7d7a95;
+}
+#footer span div a:hover{
+	color:#b7574e;
 }
 #footer ul li:last { margin: 0; }
+#footer img{
+	height:40px;
+	width:40px;
+}
+#social-media{
+	float:right;
+	clear:right;
+	margin-right:20px;
+}
+#social-media a{
+	padding:10px;
+}
+
+#designer-align{
+	text-align:center;
+}
+ .glyphicon-plus {
+       color:pink; 
+   }
