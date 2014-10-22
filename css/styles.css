@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-  background: #40afc2	;
+  background: #224263;
   width: auto;
   padding:12px;
   border-top:3px solid #5bbfe8;
@@ -34,7 +34,7 @@
   text-align: center;
 }
 #cssmenu ul li a {
-  color: #3b3c42;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -50,7 +50,7 @@
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: grey;
+  color: black;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -63,8 +63,8 @@
   top: 19px;
   height: 6px;
   width: 6px;
-  background: #ffffff;
-  opacity: .5;
+  background: black;
+  opacity: .3;
 }
 #cssmenu ul li a:before {
   content: "";
@@ -86,7 +86,7 @@
   display: none;
 }
 #cssmenu ul li.active a {
-  color: yellow;
+  color: gray;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
@@ -108,7 +108,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid black;
   }
   #cssmenu ul li.last > a,
   #cssmenu ul li:last-child > a {
@@ -128,15 +128,12 @@
 }
 
 iframe{
-	width:99%;
-	margin-top:10px;
-}
-#content-map{
-	border:3px solid red;
 	width:100%;
+	margin-top:10px;
+	border-top:4px solid black;
 }
 #cssmenu-wrapper{
-	background-color:#AFE0A5;
+	background-color:#ccc0c1;
 	height:10%;
 	width:100%;
 }
@@ -147,10 +144,27 @@ body{
 	margin:0;
 	background:#EA4C89;
 }
-footer{
-	width: 100%;
-	height:35px;
-	background-color: #4276B6;
-	margin-top: 22%;
-	clear: both;
+
+/*Main footer*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #c37c82;
+    height: 24px;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:3px;
 }
+#footer ul {
+    width: 684px;
+    margin: 0 auto;
+}
+#footer ul li {
+    list-style-image: none;
+    display: inline-block;
+    font: 20px/11px 'RobotoLight', Arial, sans-serif;
+    margin: 0 23px 0 0
+    
+}
+#footer ul li:last { margin: 0; }
