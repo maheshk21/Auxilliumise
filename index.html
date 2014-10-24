@@ -4,7 +4,7 @@
 	
 	<!-- Bootstrap -->
 	
-	<meta charset='utf-8'>
+   <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
@@ -21,6 +21,18 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-XXXX-Y', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+<!-- End Google Analytics -->
 	
 	<title>Auxillium | Home</title>
 </head>
@@ -46,13 +58,24 @@
 
 
 <div id="footer">
-	<span id="studioLink"><div id="designer-align">Designed by <a id="designer" href="https://about.me/maheshkumar21">Mahesh Kumar 
-		</a> with <span class="glyphicon glyphicon-heart"><i class="pink"></span></div>
+	<span id="studioLink">
+		<div id="designer-align">Designed by 
+			<a id="designer" href="https://about.me/maheshkumar21">Mahesh Kumar</a> with 
+				<span class="glyphicon glyphicon-heart"><i class="pink"></span>
+		</div>
 		<div id="social-media">
-			<a href="#"><img class="facebook" src="img/64/facebook.png"></img></a>
-			<a href="#"><img src="img/64/twitter.png"></img></a>
-			<a href="#"><img src="img/64/youtube.png"></img></a>
-			<a href="#"><img src="img/64/blogger.png"></img></a>
+			<a id="facebook" class="btn-social btn-facebook" role="button" href="#">
+				<i class="fa fa-facebook fa-2x"></i>
+			</a>
+			<a id="twitter" class="btn-social btn-twitter" role="button" href="#">
+				<i class="fa fa-twitter fa-2x"></i>
+			</a>
+			<a id="youtube" class="btn-social btn-youtube" role="button" href="#">
+				<i class="fa fa-youtube fa-2x"></i>
+			</a>
+			<a id="github" class="btn-social btn-github" role="button" href="#">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
 		</div>
 	</span>
 	<ul>

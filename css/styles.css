@@ -126,10 +126,11 @@
 	margin-top:3%;
 	font-size:110%;
 }
-
+#contact-map{
+	margin-bottom:5%;
+}
 iframe{
-	width:100%;
-	
+	width:100%;	
 	border-top:4px solid black;
 	margin-bottom:10px;
 }
@@ -148,13 +149,14 @@ body{
 
 /*Main footer*/
 #footer {
-    position:fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
     background: #b0cfd3;
     height: auto;
 	text-align:center;
 	padding:5px;
+	margin-top:5%;
 }
 #footer ul {
     width: 750px;
@@ -194,6 +196,18 @@ body{
 #designer-align{
 	text-align:center;
 }
- .glyphicon-plus {
-       color:pink; 
-   }
+#designer-align span{
+	color:red;
+}
+#social-media #facebook:hover{
+	color:#3B5998 ;
+}
+#social-media #twitter:hover{
+	color:#00aced;
+}
+#social-media #youtube:hover{
+	color:#FF0202;
+}
+#social-media #github:hover{
+	color:black;
+}
